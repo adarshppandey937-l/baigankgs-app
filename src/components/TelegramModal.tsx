@@ -44,8 +44,8 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
         <div className="relative mx-auto mb-4 w-20 h-20">
           <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-pink-500 shadow-lg shadow-pink-500/30 p-0.5 bg-gradient-to-tr from-pink-500 to-rose-500">
             <img
-              src="https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg"
-              alt="pandey ji"
+              src={APP_ICON}
+              alt="Logo"
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
@@ -65,14 +65,13 @@ export const TelegramModal: React.FC<TelegramModalProps> = ({ isOpen, onClose })
         </h3>
 
         <p className="mt-2 text-xs sm:text-sm text-slate-300 leading-relaxed">
-          
-यह ऐप/वेबसाइट केवल Educational Purpose (शैक्षणिक उद्देश्य) के लिए बनाई गई है। इस ऐप/वेबसाइट को सभी के लिए Free रखा गया है और किसी भी व्यक्ति से इसके लिए कोई शुल्क नहीं लिया जाता है। Thank You ❤️ Developer: Pandey Ji This app/website is created solely for Educational Purposes. It is provided Free of Cost, and no money is charged from anyone. Thank You ❤️ Developer: Pandey Ji <strong className="text-pink-400">{TELEGRAM_HANDLE}</strong>.
+          यह ऐप/वेबसाइट केवल Educational Purpose (शैक्षणिक उद्देश्य) के लिए बनाई गई है। इस ऐप/वेबसाइट को सभी के लिए Free रखा गया है और किसी भी व्यक्ति से इसके लिए कोई शुल्क नहीं लिया जाता है। Thank You ❤️ Developer: <strong className="text-pink-400">{TELEGRAM_HANDLE}</strong>.
         </p>
 
         {/* Action Buttons */}
         <div className="mt-6 flex flex-col gap-2.5">
           <a
-            href="https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z"
+            href={TELEGRAM_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={onClose}
