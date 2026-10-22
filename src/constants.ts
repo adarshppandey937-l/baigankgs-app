@@ -1,6 +1,6 @@
 export const APP_NAME = "PANDEY ji";
 export const APP_TAGLINE = "Free Batches, Lectures & Notes";
-export const APP_ICON = "https://i.postimg.cc/hPgknKj9/IMG-20261009-045320-475.jpg?=v1";
+export const APP_ICON = "https://i.postimg.cc/wv3RgCjh/Screenshot-2026-07-30-13-33-52-41-948cd9899890cbd5c2798760b2b95377.jpg?v=200";
 export const TELEGRAM_URL = "https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z";
 export const TELEGRAM_HANDLE = "pandey ji";
 export const WHATSAPP_URL = "https://whatsapp.com/channel/0029VbDcWLp8PgsHZKtwRd0z";
