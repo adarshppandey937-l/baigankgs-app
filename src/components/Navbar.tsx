@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center">
                 <span className="text-lg sm:text-2xl font-black text-white tracking-tight">
-                  GB <span className="text-pink-500">STUDY</span>
+                  pandey <span className="text-pink-500">study</span>
                 </span>
               </div>
               <p className="text-[10px] sm:text-xs text-slate-400 font-medium truncate max-w-[160px] sm:max-w-none">
@@ -93,7 +93,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="py-1.5 sm:py-2 px-3 sm:px-4 rounded-full font-bold text-white bg-gradient-to-r from-pink-500 via-rose-500 to-pink-600 hover:from-pink-600 hover:to-rose-600 shadow-md shadow-pink-500/30 flex items-center gap-1.5 text-xs sm:text-sm transition-all transform active:scale-95"
             >
               <Send className="w-3.5 h-3.5 fill-white" />
-              <span>Telegram</span>
+              <span>Whatsapp</span>
             </a>
           </div>
         </div>
