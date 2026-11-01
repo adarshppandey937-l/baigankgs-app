@@ -447,7 +447,7 @@ export default function App() {
 
           {/* Running Marquee Banner */}
           <div className="site-marquee">
-            <span>🌸 सारे बैच फ्री है कोई भी किसी को एक रुपया नहीं देगा 🌸 ❤️</span>
+            <span>🌸pdhoge likhoge bnoge budhuu 😁 aur l.. 🤫🌸 ❤️</span>
           </div>
 
           {/* Main Grid View */}
@@ -591,7 +591,7 @@ export default function App() {
           {/* Free Notice Marquee Banner */}
           <div className="batches-free-notice">
             <div className="batches-free-notice-text">
-              🎉 यह वेबसाइट बिल्कुल FREE है &nbsp;&nbsp; | &nbsp;&nbsp; हमारी वेबसाइट का असली नाम: <strong>GB STUDY</strong> &nbsp;&nbsp; 🎉
+              🎉 यह वेबसाइट बिल्कुल FREE है &nbsp;&nbsp; | &nbsp;&nbsp; हमारी वेबसाइट का असली नाम: <strong>PANDEY JI</strong> &nbsp;&nbsp; 🎉
             </div>
           </div>
 
